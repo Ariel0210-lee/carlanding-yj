@@ -1,0 +1,32 @@
+/* fonts */
+@font-face {
+    font-family: 'ROKABold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.1/ROKABold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.w-100{
+    width: 100%;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
+}
+
+img{
+    width: 100%;
+}

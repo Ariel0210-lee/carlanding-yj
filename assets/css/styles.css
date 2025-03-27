@@ -1,0 +1,89 @@
+@import url('../css/reset.css');
+@import url('../css/normalize.css');
+@import url('../css/common.css');
+
+
+
+
+h3, h2, p{
+    margin: 0;
+}
+
+.main_top{
+    padding-top: 246px;
+    background-color: #F8F8F8;
+}
+
+.container{
+    width: 1368px;
+    margin: 0 auto;
+}
+
+.main_title h3{
+    font-family: 'ROKABold';
+    font-size: 48px;
+    font-weight: bold;
+    color: #5e5c5d;
+    padding: 10px 0;
+}
+.main_title h2{
+    font-family: 'ROKABold';
+    font-size: 64px;
+    font-weight: bold;
+    color: #2273b8;
+}
+
+.main_txt{
+    font-size: 32px;
+    font-weight: 600;
+    color: #5e5c5d;
+    margin: 40px 0 95px 0;
+}
+
+.main_txt p{
+    padding: 10px;
+}
+
+.main_point{
+    font-weight: 700;
+    color: #186efc;
+}
+
+.main_btn{
+    text-decoration: none;
+    background-color: #212225;
+    color: #F8F8F8;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.position-re{
+    position: relative;
+    z-index: 99;
+}
+
+.cars{
+    position: relative;
+    z-index: 9;
+}
+
+.ball{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    background-color: #186efc;
+    border-radius: 750px 750px 0px 0px;
+    top: 100px;
+    left: 120px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+/* media(반응형 구간) */
