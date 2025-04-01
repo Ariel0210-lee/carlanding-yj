@@ -9,6 +9,10 @@
 
 
 
+html{
+    font-size: 12px;
+}
+
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
@@ -26,7 +30,32 @@ body{
 .w-40{
     width: 40%;
 }
+.w-25{
+    width: 25%;
+}
+
+.sec-auto{
+    width: 1368px;
+    margin: 0 auto;
+}
 
 img{
     width: 100%;
+}
+
+h1{
+    font-size: 5.33rem;
+    font-weight: 800;
+    color: #186efc;
+    margin: 0;
+} 
+
+h3, p{
+    margin: 10px 0;
+}
+
+.section_title{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #0b1030;
 }
