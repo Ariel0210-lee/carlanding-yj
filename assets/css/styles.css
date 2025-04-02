@@ -137,10 +137,91 @@ section{
 
 /* section03 */
 
-/* .section03{
+.section03{
     padding: 3.33rem 0 7.58rem;
 }
 
 .section03 .section_title{
     text-align: center;
-} */
+    margin-bottom: 7.33rem;
+}
+
+.section03 .d-flex{
+    justify-content: space-between;
+    gap: 6.42em;
+}
+
+.sec03_content-box{
+    border: 1px solid #E5E8F0;
+    border-radius: 10px 0;
+    padding: 6.42em 7.08em;
+}
+
+.sec03__input-box.d-flex-c{
+    gap: 2.5em;
+}
+.sec03__input-box input{
+    width: 100%;
+    height: 33%;
+    border: 1px solid #5e5c5d;
+    border-radius: 7px;
+    padding: 1.25rem 1.67rem;
+    font-size: 1.67rem;
+    color: #0b1030;
+}
+.sec03__input-box input::placeholder{
+    font-size: 1.67rem;
+    color: #cacbcc;
+}
+
+.sec03__check{
+    margin: 2.5rem 0 5.08rem;
+}
+.sec03__check input{
+    accent-color: #186EFC;   
+}
+.checkbox__txt{
+    margin: 0.83rem 0;
+}
+.checkbox__txt span{
+    font-size: 1.17rem;
+    font-weight: 500;
+    color: #5e5c5d;
+    margin-left: 1.17rem;
+}
+
+.sec03_content-box a{
+    text-decoration: none;
+}
+.sec03__btn{
+    width: 100%;
+    height: 87px;
+    border: none;
+    border-radius: 10px;
+    background-color: #186EFC;
+    color: #fff;
+    font-size: 2.17rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+.sec03__btn:hover{
+    background-color: #0D5BDB;
+    color: #e9e9e9;
+}
+
+.sec03_event-box img{
+    width: 470px;
+    margin: auto;
+}
+.sec03_event-txt{
+    text-align: center;
+    font-size: 2rem;
+    color: #5e5c5d;
+    position: relative;
+    bottom: 5%;
+}
+
+.section03 .point_txt{
+    color: #198762;
+}

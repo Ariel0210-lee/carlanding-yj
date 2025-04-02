@@ -7,6 +7,7 @@
 /* media(반응형 구간) */
 /* 1280 1024 768 540 348 */
 
+/* 1280 */
 @media (max-width: 1280px){
     section{
         height: 100vh;
@@ -61,7 +62,6 @@
     }
     .sec02_icon{
         width: 118px;
-        margin: auto;
     }
 
     .sec02__text h3{
@@ -70,8 +70,45 @@
     .sec02__text p{
         font-size: 1.33rem;
     }
+
+    /* section03 */
+    .section03 .d-flex{
+        gap: 4em;
+    }
+    .sec03_content-box{
+        padding: 6.42em 6.08em;
+    }
+    
+    .sec03__input-box.d-flex-c{
+        gap: 1.7em;
+    }
+    .sec03__input-box input{
+        width: 100%;
+        height: 33%;
+        font-size: 1.5rem;
+        color: #0b1030;
+    }
+    .sec03__input-box input::placeholder{
+        font-size: 1.5rem;
+        color: #cacbcc;
+    }
+    .sec03__btn{
+        height: 78px;
+        font-size: 1.83rem;
+    }
+
+    .sec03_event-box img{
+        width: 400px;
+        position: relative;
+        bottom: 2%;
+    }
+    .sec03_event-txt{
+        bottom: 10%;
+    }
 }
 
+
+/* 1024 */
 
 @media (max-width: 1024px){
     .sec-auto{
@@ -90,14 +127,12 @@
     }
     .main-text{
         font-size: 1.67rem;
+        margin-top: 1.67em;
     }
 
     .main_btn{
         font-size: 1.5rem;
-        font-weight: 500;
-        color: #186EFC;
-        text-align: center;
-        padding: 1.5em 2.5em;
+        padding: 1.33em 2.08em;
         border-radius: 2.5em;
         margin-top: 7.5em;
     }
@@ -118,8 +153,392 @@
     .cars{
         width: 630px;
         top: 25%;
+        right: 0;
     }
 
     /* section02 */
+    .section02 .d-flex{
+        gap: 1.08em;
+    }
 
+    .sec02_content-box{
+        height: 370px;
+        border-radius: 12px 0;
+    }
+
+    .sec02_icon{
+        width: 113px;
+    }
+
+    .sec02__text h3{
+        font-size: 1.67rem;
+    }
+    .sec02__text p{
+        font-size: 1.17rem;
+    }
+
+    /* section03 */
+    .section03 .d-flex{
+        gap: 2em;
+    }
+    .sec03__input-box.d-flex-c{
+        gap: 1.5em;
+    }
+
+    .sec03_content-box{
+        padding: 6.42em 3.3em;
+    }
+    .sec03__btn{
+        height: 70px;
+    }
+
+
+    .sec03_event-box img{
+        width: 370px;
+        bottom: 0;
+    }
+    .sec03_event-txt{
+        font-size: 1.67rem;
+        top: 5%;
+        bottom: 0;
+    }
+}
+
+
+/* 768 */
+
+@media (max-width: 768px){
+    p{
+        margin: 5px 0;
+    }
+
+    .sec-auto{
+        width: 720px;
+    }
+
+    /* main section */
+    .container{
+        padding: 0;
+    }
+    .container.d-flex{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_title{
+        font-size: 3rem;
+    }
+    .sec01_title.w-40,
+    .sec01_img.w-60{
+        width: 80%;
+    }
+
+    .sec01_title{
+        margin: 0;
+        position: relative;
+        bottom: 14%;
+        z-index: 20;
+    }
+
+    .main_btn{
+        font-size: 1.33rem;
+        padding: 1.33em 2.08em;
+        margin-top: 3em;
+    }
+
+    .ellipes{
+        width: 890px;
+        height: 890px;
+        left: 53%;
+        bottom: 23%;
+    }
+    .ellipes::after{
+        width: 1090px;
+        height: 1090px;
+    }
+    .cars{
+        position: relative;
+        top: 0;
+        width: 600px;
+    }
+
+
+    /* section02 */
+    .section02{
+        padding: 4.33em 0;
+    }
+    .section02 .d-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.83em;
+    }
+
+    .sec02_title{
+        margin-bottom: 4em;
+    }
+    .sec02_title p{
+        font-size: 1.5rem;
+    }
+
+    .sec02_content-box.w-25{
+        width: 40%;        
+    }
+    .sec02_content-box{
+        height: 350px;
+    }
+
+    .sec02__text h3{
+        font-size: 1.83rem;
+    }
+    .sec02__text p{
+        font-size: 1.33rem;
+    }
+
+    /* section03 */
+    .section03{
+        padding: 0;
+        margin-top: 10em;
+    }
+    .section03 .d-flex{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section03 .w-50{
+        width: 80%;
+    }
+
+    .section03 .section_title{
+        margin-bottom: 2rem;
+    }
+
+    .sec03_content-box{
+        padding: 6.42em 6em;
+    }
+
+    .sec03_event-box img{
+        width: 300px;
+    }
+    .sec03_event-txt{
+        position: inherit;
+        margin-bottom: 2em;
+        font-size: 1.5rem;
+    }
+    .sec03__btn{
+        font-size: 1.5rem;
+    }
+}
+
+
+/* 540 */
+@media (max-width: 540px){
+    .sec-auto{
+        width: 100%;
+    }
+
+    .section_title{
+        font-size: 2.5rem;
+    }
+
+    .sec01_title{
+        text-align: center;
+        bottom: 5%;
+    }
+    .main-title h3{
+        font-size: 2.67rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+
+    .ellipes{
+        width: 650px;
+        height: 650px;
+        left: 52%;
+        bottom: 40%;
+    }
+    .ellipes::after{
+        width: 850px;
+        height: 850px;
+    }
+
+    /* section02 */
+    .section02{
+        padding: 3.33em 0;
+    }
+
+    .sec02_title{
+        margin-bottom: 2.83em;
+    }
+    .sec02_title p{
+        font-size: 1.33rem;
+    }
+
+    .section02 .d-flex{
+        gap: 1.25em;
+    }
+    .sec02_content-box.w-25{
+        width: 80%;
+    }
+    .sec02_content-box{
+        height: 180px;
+        border-radius: 10px 0;
+    }
+    .sec02_content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5em;
+    }
+
+    .sec02_icon{
+        width: 90px;
+    }
+    .sec02__text{
+        text-align: inherit;
+        margin: auto;
+    }
+
+    /* section03 */
+    .section03{
+        margin-top: 8em;
+    }
+
+    .section03 .section_title{
+        margin-bottom: 0;
+    }
+
+    .sec03_event-box img{
+        width: 270px;
+    }
+    .sec03_event-txt{
+        position: inherit;
+        margin-bottom: 1em;
+        font-size: 1.33rem;
+    }
+
+    .sec03_content-box{
+        padding: 4em 4em;
+    }
+    .sec03__input-box.d-flex-c{
+        gap: 1em;
+    }
+    .sec03__input-box input{
+        font-size: 1.33rem;
+    }
+    .sec03__input-box input::placeholder{
+        font-size: 1.33rem;
+    }
+    .checkbox__txt{
+        margin: 0.42rem 0;
+    }
+    .checkbox__txt span{
+        font-size: 1.17rem;
+        font-weight: 500;
+        color: #5e5c5d;
+        margin-left: 1.17rem;
+    }
+    .sec03__btn{
+        height: 60px;
+        font-size: 1.5rem;
+    }
+}
+
+
+/* 348 */
+@media (max-width: 348px){
+    .section_title{
+        font-size: 1.83rem;
+    }
+
+    /* main section */
+    .main-title h3{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .main-text{
+        font-size: 1.42rem;
+    }
+
+    .main_btn{
+        font-size: 1.17rem;
+        padding: 1.33em 2.08em;
+        margin-top: 3em;
+    }
+
+    /* section02 */
+    .sec02_title{
+        margin-bottom: 2.17em;   
+    }
+    .sec02_title p{
+        font-size: 1rem;
+    }
+
+    .section02 .d-flex{
+        gap: 0.83em;
+    }
+    .sec02_content-box{
+        height: 120px;
+        padding: 0 1em;
+    }
+
+    .sec02_icon{
+        width: 70px;
+    }
+
+    .sec02__text h3{
+        font-size: 1.33rem;
+    }
+    .sec02__text p{
+        font-size: 1rem;
+    }
+
+    /* section03 */
+    .section03{
+        margin-top: 0;
+        padding: 3.33em 0;
+    }
+
+    .sec03_event-box img{
+        width: 200px;
+    }
+    .sec03_event-txt{
+        font-size: 1.08rem;
+    }
+
+    .sec03_content-box{
+        padding: 3em 2em;
+    }
+    .sec03__input-box.d-flex-c{
+        gap: 0.58em;
+    }
+    .sec03__input-box input{
+        height: 38px;
+        font-size: 1.17rem;
+        padding: 1.08rem;
+    }
+    .sec03__input-box input::placeholder{
+        font-size: 1.17rem;
+    }
+    .sec03__check{
+        margin: 2em 0 3em;
+    }
+    .checkbox__txt{
+        margin: 0.42rem 0;
+    }
+    .checkbox__txt span{
+        font-size: 1rem;
+        font-weight: 500;
+        color: #5e5c5d;
+        margin-left: 0.42rem;
+    }
+    .sec03__btn{
+        height: 50px;
+        font-size: 1.33rem;
+    }
 }

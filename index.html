@@ -9,7 +9,7 @@
     <!-- style -->
     <link rel="stylesheet" href="assets/css/styles.css" />
     <!-- media -->
-     <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/media.css" />
   </head>
   <body>
     <section class="sec01-bg">
@@ -115,30 +115,36 @@
     <section class="section03 sec-auto">
       <h3 class="section_title">최저가 무료 견적 요청</h3>
       <div class="d-flex">
-        <div class="sec03_content-box">
-          <div class="sec03__input-box">
-            <input type="text" class="name" placeholder="이름" />ㅎ
-            <input type="text" class="car" placeholder="희망차종" />
-            <input type="tel" class="phone" placeholder="연락처" />
+        <div class="sec03_content-box w-50">
+          <div class="sec03__input-box d-flex-c">
+            <input type="text" placeholder="이름" />
+            <input type="text" placeholder="희망차종" />
+            <input type="tel" placeholder="연락처" />
           </div>
           <div class="sec03__check">
-            <input type="checkbox">
-            <span>
-              개인정보 수집 및 제3자 제공 동의(필수)
-            </span>
-            <input type="checkbox">
-            <span>
-              마케팅 정보 수신 동의(선택)
-            </span>
+            <div class="checkbox__txt">
+              <input type="checkbox" />
+              <span> 개인정보 수집 및 제3자 제공 동의(필수) </span>
+            </div>
+            <div class="checkbox__txt">
+              <input type="checkbox" />
+              <span> 마케팅 정보 수신 동의(선택) </span>
+            </div>
           </div>
           <a href="#">
-            <button type="submit" class="sec03__btn">
-                무료 상담 받기
-            </button>
+            <button type="submit" class="sec03__btn">무료 상담 받기</button>
           </a>
         </div>
-        <div class="sec03_event-box">
-          <img src="" alt="" />
+        <div class="sec03_event-box w-50">
+          <img src="assets/images/starbucks-img.png" alt="스타벅스-이미지" />
+          <div class="sec03_event-txt">
+            <p>
+              지금 바로 상담 받고 <span class="point_txt">스타벅스 무료 쿠폰</span> 받아가세요!
+            </p>
+            <p>
+              상담만 받아도 아메리카노 1잔 무료 쿠폰 증정
+            </p>
+          </div>
         </div>
       </div>
     </section>
