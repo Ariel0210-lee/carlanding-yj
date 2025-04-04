@@ -72,7 +72,7 @@
     }
 
     /* section03 */
-    .section03 .d-flex{
+    .section03 .d-flex-s{
         gap: 4em;
     }
     .sec03_content-box{
@@ -104,6 +104,25 @@
     }
     .sec03_event-txt{
         bottom: 10%;
+    }
+
+    /* section04 */
+    .section04 .d-flex-s{
+        gap: 6.67em;
+    }
+
+    .section04::after{
+        width: 970px;
+        height: 970px;
+        top: 7%;
+        right: 70%;
+    }
+
+    .section04 .sub-title{
+        font-size: 2.5rem;
+    }
+    .mb-80{
+        margin-bottom: 3.5em;
     }
 }
 
@@ -178,7 +197,7 @@
     }
 
     /* section03 */
-    .section03 .d-flex{
+    .section03 .d-flex-s{
         gap: 2em;
     }
     .sec03__input-box.d-flex-c{
@@ -202,6 +221,31 @@
         top: 5%;
         bottom: 0;
     }
+
+    /* section04 */
+    .section04 .d-flex-s{
+        gap: 2em;
+    }
+
+    .section04::after{
+        width: 850px;
+        height: 850px;
+        top: 7%;
+        right: 70%;
+    }
+
+    .sec04__txt-box{
+        padding: 1.67em;
+    }
+    .section04 .sub-title{
+        font-size: 2rem;
+    }
+    .section04 .sub-text{
+        font-size: 1.33rem;
+    }
+    .mb-80{
+        margin-bottom: 4.5em;
+    }
 }
 
 
@@ -211,12 +255,18 @@
     p{
         margin: 5px 0;
     }
+    section{
+        height: auto;
+    }
 
     .sec-auto{
         width: 720px;
     }
 
     /* main section */
+    .sec01-bg{
+        height: 100vh;
+    }
     .container{
         padding: 0;
     }
@@ -298,10 +348,9 @@
 
     /* section03 */
     .section03{
-        padding: 0;
-        margin-top: 10em;
+        padding: 4.33em 0;
     }
-    .section03 .d-flex{
+    .section03 .d-flex-s{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -329,6 +378,25 @@
     }
     .sec03__btn{
         font-size: 1.5rem;
+    }
+    /* section04 */
+    .section04{
+        padding: 4.33em 0;
+    }
+    .section04 .d-flex-s{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3em;
+    }
+    .section04 .w-50{
+        width: 80%;
+    }
+    .sec04_img{
+        width: 400px;
+    }
+    .mb-80{
+        margin-bottom: 1em;
     }
 }
 
@@ -404,7 +472,7 @@
 
     /* section03 */
     .section03{
-        margin-top: 8em;
+        padding: 3.33em 0;
     }
 
     .section03 .section_title{
@@ -421,13 +489,14 @@
     }
 
     .sec03_content-box{
-        padding: 4em 4em;
+        padding: 4em 3em;
     }
     .sec03__input-box.d-flex-c{
         gap: 1em;
     }
     .sec03__input-box input{
         font-size: 1.33rem;
+        border-radius: 5px;
     }
     .sec03__input-box input::placeholder{
         font-size: 1.33rem;
@@ -444,6 +513,40 @@
     .sec03__btn{
         height: 60px;
         font-size: 1.5rem;
+    }
+
+    /* section04 */
+    .section04{
+        padding: 3.33em 0;
+    }
+    .section04 .d-flex-s{
+        gap: 2em;
+    }
+
+    .section04::after{
+        width: 600px;
+        height: 600px;
+        top: -10%;
+        right: 62%;
+    }
+
+    .sec04_img{
+        width: 300px;
+    }
+
+    .sec04__txt-box{
+        padding: 1.33em;
+    }
+    .section04 .sub-title{
+        font-size: 1.67rem;
+        margin: 5px 10px;
+    }
+    .section04 .sub-text{
+        font-size: 1.17rem;
+        margin-top: 1.67rem;
+    }
+    .section04 .sub-text p{
+        margin: 0 10px;
     }
 }
 
@@ -472,6 +575,9 @@
     }
 
     /* section02 */
+    .section02{
+        padding: 2.5em 0;
+    }
     .sec02_title{
         margin-bottom: 2.17em;   
     }
@@ -500,10 +606,8 @@
 
     /* section03 */
     .section03{
-        margin-top: 0;
-        padding: 3.33em 0;
+        padding: 2.5em 0;
     }
-
     .sec03_event-box img{
         width: 200px;
     }
@@ -540,5 +644,32 @@
     .sec03__btn{
         height: 50px;
         font-size: 1.33rem;
+    }
+
+    /* section04 */
+    .section04{
+        padding: 2.5em 0;
+    }
+
+    .section04 .d-flex-s{
+        gap: 1.5em;
+    }
+
+    .sec04_img{
+        width: 200px;
+    }
+
+    .sec04__txt-box{
+        padding: 1em;
+    }
+    .mb-80{
+        margin-bottom: 0.67em;
+    }
+    .section04 .sub-title{
+        font-size: 1.33rem;
+    }
+    .section04 .sub-text{
+        font-size: 1rem;
+        margin-top: 1.33rem;
     }
 }

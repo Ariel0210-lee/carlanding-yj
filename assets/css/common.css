@@ -20,6 +20,10 @@ body{
 .d-flex{
     display: flex;
 }
+.d-flex-s{
+    display: flex;
+    justify-content: space-between;
+}
 .d-flex-c{
     display: flex;
     flex-direction: column;
@@ -65,4 +69,13 @@ h3, p{
     font-size: 4rem;
     font-weight: 600;
     color: #0b1030;
+}
+
+.point_txt{
+    font-weight: 700;
+    color: #186EFC;
+}
+
+.text-bold{
+    font-weight: bold;
 }

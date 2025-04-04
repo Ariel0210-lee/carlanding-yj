@@ -38,10 +38,6 @@ section{
     color: #949494;
     margin-top: 2em;
 }
-.point_txt{
-    font-weight: 700;
-    color: #186EFC;
-}
 .sec01_title a{
     text-decoration: none;
 }
@@ -146,8 +142,7 @@ section{
     margin-bottom: 7.33rem;
 }
 
-.section03 .d-flex{
-    justify-content: space-between;
+.section03 .d-flex-s{
     gap: 6.42em;
 }
 
@@ -224,4 +219,118 @@ section{
 
 .section03 .point_txt{
     color: #198762;
+}
+
+
+/* section04 */
+.section04{
+    padding: 13.83em 0 14.42em 0;
+    position: relative;
+}
+.section04 .d-flex-s{
+    gap: 8.83em;
+}
+
+.sec04_img{
+    height: auto;
+    position: relative;
+    z-index: 99;
+}
+
+.section04::after{
+    content: "";
+    width: 1072px;
+    height: 1072px;
+    background-color: #186EFC;
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    right: 86%;
+    z-index: 20;
+}
+
+.sec04__txt-box{
+    border: 1px solid #E5E8F0;
+    border-radius: 10px 0;
+    padding: 2.5em;
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: 30;
+    position: relative;
+}
+.section04 .sub-title{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #0b1030;
+    margin: 10px 0 10px 10px;
+}
+.section04 .sub-text{
+    margin-top: 2.5rem;
+    color: #5e5c5d;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.sec04__txt-box p{
+    margin: 5px 10px;
+}
+
+.mb-80{
+    margin-bottom: 6.67em;
+}
+
+
+/* section05 */
+.section04{
+    padding: 13.83em 0 14.42em 0;
+    position: relative;
+}
+.section04 .d-flex-s{
+    gap: 8.83em;
+}
+
+.sec04_img{
+    height: auto;
+    position: relative;
+    z-index: 99;
+}
+
+.section04::after{
+    content: "";
+    width: 1072px;
+    height: 1072px;
+    background-color: #186EFC;
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    right: 86%;
+    z-index: 20;
+}
+
+.sec04__txt-box{
+    border: 1px solid #E5E8F0;
+    border-radius: 10px 0;
+    padding: 2.5em;
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: 30;
+    position: relative;
+}
+.section04 .sub-title{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #0b1030;
+    margin: 10px 0 10px 10px;
+}
+.section04 .sub-text{
+    margin-top: 2.5rem;
+    color: #5e5c5d;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.sec04__txt-box p{
+    margin: 5px 10px;
+}
+
+.mb-80{
+    margin-bottom: 6.67em;
 }
