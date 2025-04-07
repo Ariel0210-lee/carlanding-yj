@@ -246,7 +246,7 @@ section{
     position: absolute;
     top: 10%;
     right: 86%;
-    z-index: 20;
+    z-index: -3;
 }
 
 .sec04__txt-box{
@@ -280,57 +280,120 @@ section{
 
 
 /* section05 */
-.section04{
-    padding: 13.83em 0 14.42em 0;
+.section05{
+    padding: 6.17em 0 18.83em 0;
     position: relative;
+    overflow: hidden;
 }
-.section04 .d-flex-s{
+
+.section05 .d-flex-s{
     gap: 8.83em;
 }
 
-.sec04_img{
+.sec05_img{
     height: auto;
     position: relative;
     z-index: 99;
 }
 
-.section04::after{
+.section05::after{
     content: "";
     width: 1072px;
     height: 1072px;
     background-color: #186EFC;
     border-radius: 100%;
     position: absolute;
-    top: 10%;
-    right: 86%;
-    z-index: 20;
+    top: 12%;
+    left: 73%;
+    z-index: -5;
 }
 
-.sec04__txt-box{
+.sec05__txt-box{
     border: 1px solid #E5E8F0;
     border-radius: 10px 0;
     padding: 2.5em;
     background-color: rgba(255, 255, 255, 0.85);
-    z-index: 30;
+    z-index: 31;
     position: relative;
 }
-.section04 .sub-title{
+.section05 .sub-title{
     width: 100%;
     font-size: 3rem;
     font-weight: 600;
     color: #0b1030;
     margin: 10px 0 10px 10px;
 }
-.section04 .sub-text{
+.section05 .sub-text{
     margin-top: 2.5rem;
     color: #5e5c5d;
     font-size: 1.5rem;
     font-weight: 500;
 }
-.sec04__txt-box p{
+.sec05__txt-box p{
     margin: 5px 10px;
 }
 
 .mb-80{
     margin-bottom: 6.67em;
+}
+
+
+/* section06 */
+.section06{
+    padding: 3.33em 0 7.33em;
+}
+.section06 .d-flex{
+    gap: 11.67rem;
+}
+.mt-47{
+    margin-top: 3.92rem;
+}
+
+.sec06_title{
+    text-align: center;
+    margin-bottom: 7.58rem;
+}
+.sec06_content{
+    height: 300px;
+    border: 1px solid #186EFC;
+    border-radius: 10px 0;
+    position: relative;
+    z-index: 40;
+}
+
+.sec06_content img{
+    position: absolute;
+    bottom: 55%;
+    left: 30%;
+    z-index: 50;
+}
+
+.sec06__txt-box{
+    margin-top: 12em;
+}
+.ml-36{
+    margin-left: 3rem;
+}
+.sec06__txt-box p{
+    font-size: 2.08rem;
+    font-weight: 500;
+    color: #949494;
+}
+
+.sec06__txt-box .sub-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.sec06__txt-box .sub-text p{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #5e5c5d;
+    margin: 10px 3px 0 10px;
+}
+.sec06__txt-box .sub-text .price{
+    font-size: 4rem;
+    color: #186EFC;
+    margin: 10px;
 }

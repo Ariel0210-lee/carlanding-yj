@@ -124,6 +124,52 @@
     .mb-80{
         margin-bottom: 3.5em;
     }
+
+    /* section05 */
+    .section05 .d-flex-s{
+        gap: 6.67em;
+    }
+
+    .section05::after{
+        width: 970px;
+        height: 970px;
+        top: 11%;
+        left: 70%;
+    }
+
+    .section05 .sub-title{
+        font-size: 2.5rem;
+    }
+    .mb-80{
+        margin-bottom: 3.5em;
+    }
+
+    /* section06 */
+    .section06 .d-flex{
+        gap: 8.5rem;
+    }
+
+    .sec06_content{
+        height: 280px;
+    }
+
+    .sec06_content img{
+        bottom: 62%;
+        left: 30%;
+    }
+
+    .sec06__txt-box{
+        margin-top: 11em;
+    }
+    .sec06__txt-box .sub-text{
+        margin-bottom: 2rem;
+    }
+    .sec06__txt-box .sub-text p{
+        font-size: 1.83rem;
+    }
+    .sec06__txt-box .sub-text .price{
+        font-size: 3.33rem;
+    }
 }
 
 
@@ -231,7 +277,6 @@
         width: 850px;
         height: 850px;
         top: 7%;
-        right: 70%;
     }
 
     .sec04__txt-box{
@@ -245,6 +290,63 @@
     }
     .mb-80{
         margin-bottom: 4.5em;
+    }
+
+    /* section05 */
+    .section05 .d-flex-s{
+        gap: 2em;
+    }
+
+    .section05::after{
+        width: 850px;
+        height: 850px;
+    }
+
+    .sec05__txt-box{
+        padding: 1.67em;
+    }
+    .section05 .sub-title{
+        font-size: 2rem;
+    }
+    .section05 .sub-text{
+        font-size: 1.33rem;
+    }
+    .mb-80{
+        margin-bottom: 4.5em;
+    }
+
+    /* section06 */
+    .section06 .d-flex{
+        gap: 6rem;
+    }
+
+    .sec06_content{
+        height: 250px;
+    }
+
+    .sec06_content img{
+        bottom: 62%;
+        left: 27%;
+    }
+
+    .sec06__txt-box{
+        margin-top: 10em;
+    }
+    .ml-36{
+        margin-left: 2.3rem;
+    }
+    .sec06__txt-box p{
+        font-size: 1.83rem;
+    }
+
+    .sec06__txt-box .sub-text{
+        margin-bottom: 1.67rem;
+    }
+    .sec06__txt-box .sub-text p{
+        font-size: 1.83rem;
+    }
+    .sec06__txt-box .sub-text .price{
+        font-size: 3rem;
     }
 }
 
@@ -392,11 +494,102 @@
     .section04 .w-50{
         width: 80%;
     }
+
+    .section04::after{
+        top: 3%;
+    }
+
     .sec04_img{
-        width: 400px;
+        width: 100%;
     }
     .mb-80{
         margin-bottom: 1em;
+    }
+
+    /* section05 */
+    .section05{
+        padding: 4.33em 0;
+    }
+    .section05 .d-flex-s{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 3em;
+    }
+    .section05 .w-50{
+        width: 80%;
+    }
+
+    .section05::after{
+        top: 3%;
+    }
+
+    .sec05_img{
+        width: 100%;
+    }
+    .mb-80{
+        margin-bottom: 1em;
+    }
+
+    .PConly{
+        display: none;
+    }
+
+    /* section06 */
+    .section06{
+        padding: 0 0 5em;
+    }
+    .section06 .d-flex{
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    .mt-47{
+        margin-top: 3em;
+    }
+    
+    .sec06_title{
+        margin-bottom: 4.5rem;
+    }
+    
+    .sec06_content{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        padding: 1.5em 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: space-between;
+        gap: 3em;
+    }
+
+    .sec06_content img{
+        width: 48%;
+        height: auto;
+        bottom: 0;
+        left: 0;
+        position: inherit;
+    }
+
+    .sec06__txt-box{
+        margin-top: 0;
+    }
+    .ml-36{
+        margin-left: 0;
+    }
+    .sec06__txt-box p{
+        font-size: 1.83rem;
+    }
+
+    .sec06__txt-box .sub-text{
+        margin-bottom: 0;
+    }
+    .sec06__txt-box .sub-text p{
+        font-size: 1.83rem;
+        margin: 10px 3px 0;
+    }
+    .sec06__txt-box .sub-text .price{
+        font-size: 3rem;
     }
 }
 
@@ -526,12 +719,8 @@
     .section04::after{
         width: 600px;
         height: 600px;
-        top: -10%;
+        top: -5%;
         right: 62%;
-    }
-
-    .sec04_img{
-        width: 300px;
     }
 
     .sec04__txt-box{
@@ -547,6 +736,69 @@
     }
     .section04 .sub-text p{
         margin: 0 10px;
+    }
+
+    /* section05 */
+    .section05{
+        padding: 3.33em 0;
+    }
+    .section05 .d-flex-s{
+        gap: 2em;
+    }
+    .section05::after{
+        width: 0;
+    }
+
+    .sec05__txt-box{
+        padding: 1.33em;
+    }
+    .section05 .sub-title{
+        font-size: 1.67rem;
+        margin: 5px 10px;
+    }
+    .section05 .sub-text{
+        font-size: 1.17rem;
+        margin-top: 1.67rem;
+    }
+    .section05 .sub-text p{
+        margin: 0 10px;
+    }
+
+    /* section06 */
+    .section06 .d-flex{
+        gap: 1.17em;
+    }
+    .mt-47{
+        margin-top: 1.17em;
+    }
+    
+    .section06 .section_title{
+        margin: 5px 0;
+    }
+    .sec06_title{
+        margin-bottom: 2.83rem;
+    }
+
+    .sec06_content{
+        padding: 1.33em 0;
+        gap: 1.33em;
+    }
+
+    .sec06_content img{
+        width: 43%;
+    }
+
+    .sec06__txt-box p{
+        font-size: 1.5rem;
+    }
+
+    .sec06__txt-box .sub-text p{
+        font-size: 1.33rem;
+        margin: 0;
+    }
+    .sec06__txt-box .sub-text .price{
+        font-size: 2.17rem;
+        margin: 0 0 0 5px;
     }
 }
 
@@ -655,10 +907,6 @@
         gap: 1.5em;
     }
 
-    .sec04_img{
-        width: 200px;
-    }
-
     .sec04__txt-box{
         padding: 1em;
     }
@@ -671,5 +919,57 @@
     .section04 .sub-text{
         font-size: 1rem;
         margin-top: 1.33rem;
+    }
+
+    /* section05 */
+    .section05{
+        padding: 2.5em 0;
+    }
+
+    .section05 .d-flex-s{
+        gap: 1.5em;
+    }
+
+    .sec05__txt-box{
+        padding: 1em;
+    }
+    .mb-80{
+        margin-bottom: 0.67em;
+    }
+    .section05 .sub-title{
+        font-size: 1.33rem;
+    }
+    .section05 .sub-text{
+        font-size: 1rem;
+        margin-top: 1.33rem;
+    }
+
+    /* section06 */
+    .section06 .d-flex{
+        gap: 0.83em;
+    }
+
+    .sec06_title{
+        margin-bottom: 2.17rem;
+    }
+
+    .sec06_content{
+        padding: 1.33em 0;
+        gap: 1em;
+    }
+
+    .sec06_content img{
+        width: 50%;
+    }
+
+    .sec06__txt-box p{
+        font-size: 1.33rem;
+    }
+
+    .sec06__txt-box .sub-text p{
+        font-size: 1.17rem;
+    }
+    .sec06__txt-box .sub-text .price{
+        font-size: 1.5rem;
     }
 }
