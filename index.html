@@ -6,12 +6,58 @@
     <title>중고차 랜딩페이지</title>
     <!-- animate -->
     <link rel="stylesheet" href="assets/css/animate.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- style -->
     <link rel="stylesheet" href="assets/css/styles.css" />
     <!-- media -->
     <link rel="stylesheet" href="assets/css/media.css" />
   </head>
   <body>
+    <header>
+      <nav class="nav-bar d-flex sec-auto">
+        <div class="logo">
+          <img src="assets/images/icon/logo.svg" alt="카통령-로고">
+        </div>
+        <div class="gnb">
+          <ul class="d-flex-s">
+            <li class="menu">
+              <a href="#">
+                최저가 차량
+              </a>
+            </li>
+            <li class="menu">
+              <a href="#">
+                내차구매
+              </a>
+            </li>
+            <li class="menu">
+              <a href="#">
+                평생책임 서비스
+              </a>
+            </li>
+            <li class="menu">
+              <a href="#">
+                고객후기
+              </a>
+            </li>
+            <li class="menu">
+              <a href="#">
+                상담문의
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-btn">
+            <a href="#">
+              <img src="assets/images/icon/menu-icon.svg" alt="메뉴버튼">
+            </a>
+        </div>
+      </nav>
+    </header>
+    <!-- header end-->
+
+    <!-- main section -->
     <section class="sec01-bg">
       <div class="container d-flex">
         <div class="sec01_title w-40">
@@ -320,19 +366,164 @@
       <!-- section06 end -->
 
       <!-- section07 -->
-       <!-- <section>
-
-       </section> -->
+       <section class="section07">
+        <div class="sec07_title">
+          <h3 class="section_title">고객 감동 REAL 후기</h3>
+          <p>카통령을 이용해주신 고객님들의 소중한 리뷰를 확인해보세요</p>
+        </div>
+        <div class="swiper sec07_slide">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="sec07_content-box">
+                <div class="d-flex">
+                  <div class="sec07__img">
+                    <img src="assets/images/sec07_face01.png" alt="사람얼굴-이미지">
+                  </div>
+                  <div class="sec07__name">
+                    <p class="name">김**</p>
+                    <p>아반떼</p>
+                  </div>
+                </div>
+                <div class="sec07__content-txt">
+                  <p class="stars">★★★★★</p>
+                  <p>믿고 구매한 중고차가 1년째 단 한 번의 정비 없이 완벽하게 달리고 있습니다. 전문가의 꼼꼼한 상태 점검이 큰 도움이 되었어요. 다음에도 반드시 이곳에서 구매할 것입니다.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="sec07_content-box">
+                <div class="d-flex">
+                  <div class="sec07__img">
+                    <img src="assets/images/sec07_face03.png" alt="사람얼굴-이미지">
+                  </div>
+                  <div class="sec07__name">
+                    <p class="name">이**</p>
+                    <p>티볼리</p>
+                  </div>
+                </div>
+                <div class="sec07__content-txt">
+                  <p class="stars">★★★★★</p>
+                  <p>복잡한 절차 없이 원하는 차를 빠르게 찾아주셔서 감사합니다. 친절한 상담사의 설명으로 자신 있게 결정할 수 있었어요. 이제 매일 출퇴근이 즐거워졌습니다.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="sec07_content-box">
+                <div class="d-flex">
+                  <div class="sec07__img">
+                    <img src="assets/images/sec07_face05.png" alt="사람얼굴-이미지">
+                  </div>
+                  <div class="sec07__name">
+                    <p class="name">강**</p>
+                    <p>GV70</p>
+                  </div>
+                </div>
+                <div class="sec07__content-txt">
+                  <p class="stars">★★★★★</p>
+                  <p>다른 딜러와 달리 숨겨진 비용이 전혀 없어 정직함에 감동했습니다. 투명한 가격 정책과 상세한 차량 이력 공개가 신뢰를 주었어요. 주변 지인들에게도 자신 있게 추천하고 있습니다.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="sec07_content-box">
+                <div class="d-flex">
+                  <div class="sec07__img">
+                    <img src="assets/images/sec07_face04.png" alt="사람얼굴-이미지">
+                  </div>
+                  <div class="sec07__name">
+                    <p class="name">박**</p>
+                    <p>카니발</p>
+                  </div>
+                </div>
+                <div class="sec07__content-txt">
+                  <p class="stars">★★★★★</p>
+                  <p>전문가의 꼼꼼한 점검 덕분에 안심하고 가족과 함께 여행을 즐기고 있어요. 아이들도 넓은 공간에 만족해하며 장거리 여행도 편안합니다. 중고차에 대한 불안감을 완전히 덜어주셨습니다.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="sec07_content-box">
+                <div class="d-flex">
+                  <div class="sec07__img">
+                    <img src="assets/images/sec07_face02.png" alt="사람얼굴-이미지">
+                  </div>
+                  <div class="sec07__name">
+                    <p class="name">신**</p>
+                    <p>K5</p>
+                  </div>
+                </div>
+                <div class="sec07__content-txt">
+                  <p class="stars">★★★★★</p>
+                  <p>20년 운전 경력에 최고의 구매 경험이었으며, 원하던 모델을 합리적인 가격에 구할 수 있었습니다. 구매 후 관리 서비스까지 꼼꼼하게 챙겨주시는 세심함에 감동받았어요.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+       </section>
        <!-- section07 end -->
 
        <!-- footer -->
+        <footer>
+          <div class="container sec-auto">
+            <p>대표전화 : 1800-0892 (24시간 상담 가능)</p>
+            <p>사업자번호 : 174-81-03063</p>
+            <p>상호명: 카통령/ctrm (대표 : 전성범)</p>
+            <p>사업장 소재지 : 경기도 수원시 권선구 평동로 79번길 45, SK V1 Moters / 216, 217호</p>
+            <p class="mt-20">본 광고 상품은 중고 차량 특성상 시세 변동이 있을 수 있으며, 상담 결과에 따라 금액이 달라질 수 있습니다.</p>
+          </div>
+        </footer>
 
 
 
-    <!-- script -->
-    <!-- <script src="assets/js/wow.min.js"></script>
-     <script>
-        new WOW().init();
-     </script> -->
+    <!-- wow js -->
+    <script src="assets/js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      let swiper = new Swiper(".sec07_slide", {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        centeredSlides: true,
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+        pagination: {
+          el: ".swiper-pagination",
+      },
+        mousewheel: false,
+        keyboard: true,
+        
+        // breakpoints
+        breakpoints: {
+          1280: {
+            slidesPerView: 3,
+          },
+
+          1024: {
+            slidesPerView: 2,
+          },
+
+          768: {
+            slidesPerView: 1,
+          },
+
+          540: {
+            slidesPerView: 1,
+          },
+
+          348: {
+            slidesPerView: 1,
+          }
+        }
+    });
+    </script>
+
+
   </body>
 </html>
