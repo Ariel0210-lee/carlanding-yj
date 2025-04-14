@@ -202,24 +202,13 @@
     width: 100%;
     height: 65px;
   }
-
-  .logo img {
-    width: 80%;
-  }
   .nav-bar {
-    padding: 1.2rem 0;
+    padding: 0.67rem 0;
   }
   .nav-bar.d-flex {
     justify-content: space-between;
   }
 
-  .gnb {
-    display: none;
-  }
-  .menu-btn {
-    display: block;
-    width: 35px;
-  }
 
   .sec-auto {
     width: 960px;
@@ -409,10 +398,6 @@
 /* 768 */
 
 @media (max-width: 768px) {
-  .logo h2{
-    font-size: 1.67rem;
-  }
-  
   p {
     margin: 5px 0;
   }
@@ -422,6 +407,59 @@
 
   .sec-auto {
     width: 720px;
+  }
+
+  
+  /* header */
+  header {
+    height: 56px;
+  }
+  .nav-bar {
+    padding: 1rem 0;
+  }
+
+  .logo h2{
+    font-size: 1.7rem;
+  }
+
+  .gnb{
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+    width: 35px;
+    cursor: pointer;
+  }
+
+  .mobile-gnb{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    position: absolute;
+    border: none;
+    border-radius: 0 0 0 15px;
+    top: 56px;
+    left: 70%;
+    z-index: 999;
+    background: #fff;
+  }
+  .mobile-gnb ul{
+    width: fit-content;
+    padding: 0;
+  }
+  .mobile-gnb li{
+    list-style: none;
+    padding: 10px 30px;
+  }
+  .mobile-gnb a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
   }
 
   /* main section */
@@ -689,14 +727,28 @@
     header{
         height: 60px;
     }
-    .logo img{
-        width: 70%;
-    }
+
     .menu-btn{
         width: 30px;
     }
     .nav-bar{
         padding: 1.2rem 1.67rem;
+    }
+
+    .mobile-gnb{
+      width: 100vw;
+      height: 100vh;
+      text-align: center;
+      border-radius: 0;
+      top: 60px;
+      left: 0;
+    }
+    .mobile-gnb li{
+      padding: 15px 30px;
+      margin: 20px 0;
+    }
+    .mobile-gnb a{
+      font-size: 2rem;
     }
 
 
@@ -978,13 +1030,17 @@
 /* 348 */
 @media (max-width: 348px) {
     /* header */
-    .logo img{
-        width: 60%;
-    }
     .nav-bar{
         padding: 1.2rem 1.5rem;
     }
     
+    .mobile-gnb li{
+      margin: 15px 0;
+    }
+
+    .mobile-gnb a{
+      font-size: 1.5rem;
+    }
 
 
   .section_title {
@@ -1070,7 +1126,7 @@
     margin: 0.42rem 0;
   }
   .checkbox__txt span {
-    font-size: 1rem;
+    font-size: 0.83rem;
     font-weight: 500;
     color: #5e5c5d;
     margin-left: 0.42rem;
@@ -1171,7 +1227,7 @@
   }
 
   .sec07__content-txt p {
-    font-size: 1rem;
+    font-size: 0.83rem;
   }
 
   .swiper.sec07_slide {
