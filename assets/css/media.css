@@ -4,7 +4,21 @@
 @import url("../css/styles.css");
 
 /* media(반응형 구간) */
-/* 1280 1024 768 540 348 */
+/* 1536 1280 1024 768 540 412 348 */
+
+/* 1536 */
+@media (max-width: 1536px){
+  .main-title h3{
+    font-size: 3rem;
+  }
+  h1{
+    font-size: 4rem;
+  }
+
+  .cars{
+    right: 8%;
+  }
+}
 
 /* 1280 */
 @media (max-width: 1280px) {
@@ -437,8 +451,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     text-align: right;
     position: absolute;
     border: none;
@@ -453,6 +466,7 @@
     padding: 0;
   }
   .mobile-gnb li{
+
     list-style: none;
     padding: 10px 30px;
   }
@@ -738,6 +752,7 @@
     .mobile-gnb{
       width: 100vw;
       height: 100vh;
+      align-items: center;
       text-align: center;
       border-radius: 0;
       top: 60px;
@@ -1024,6 +1039,16 @@
 
   footer .container p {
     font-size: 1.17rem;
+  }
+}
+
+/* 412 */
+@media (max-width: 412px) {
+  .sec02__text h3 {
+    font-size: 1.5rem;
+  }
+  .sec02__text p {
+    font-size: 1.2rem;
   }
 }
 
